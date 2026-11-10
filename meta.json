@@ -1,0 +1,28 @@
+{
+ "name": "grep",
+ "version": "3.11",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "grep-3.11.tar.xz"
+ ],
+ "desc": "GNU grep 3.11 (with -P, Perl regular expressions)",
+ "file": "grep-3.11.tpkg",
+ "size": 93048,
+ "sha256": "37a8a2a86655856de39cdb520e60065e18fa9553303552ea7545d26b115fba8d",
+ "unpacked": 179160,
+ "min_build": 619,
+ "depends": [
+  "pcre2",
+  "bash"
+ ],
+ "commands": {
+  "egrep": "bin/egrep",
+  "fgrep": "bin/fgrep",
+  "grep": "bin/grep"
+ }
+}
